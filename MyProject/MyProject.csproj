@@ -136,6 +136,7 @@
     </Content>
     <Content Include="App_Config\Sitecore.config">
       <TransformOnBuild>true</TransformOnBuild>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="App_Config\ConnectionStrings.Debug.config">
       <DependentUpon>ConnectionStrings.config</DependentUpon>
@@ -170,6 +171,7 @@
     <None Include="App_Config\Sitecore.QA.config">
       <DependentUpon>Sitecore.config</DependentUpon>
       <IsTransformFile>true</IsTransformFile>
+      <SubType>Designer</SubType>
     </None>
     <None Include="App_Config\Sitecore.Release.config">
       <DependentUpon>Sitecore.config</DependentUpon>
@@ -178,6 +180,7 @@
     <None Include="App_Config\Sitecore.test.config">
       <DependentUpon>Sitecore.config</DependentUpon>
       <IsTransformFile>true</IsTransformFile>
+      <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
     <Content Include="Web.config" />
@@ -187,6 +190,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.test.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
