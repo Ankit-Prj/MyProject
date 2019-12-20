@@ -2,9 +2,9 @@
 version: 1
 id: {B75CF432-C529-438D-8B29-73734B02423B}
 database: master
-path: /sitecore/templates/Sample/New template
+path: /sitecore/templates/Sample/_New template
 parent: {73BAECEB-744D-4D4A-A7A5-7A935638643F}
-name: New template
+name: _New template
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -20,7 +20,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 2232675f-01df-40bd-8f99-1152ae02c59b
+revision: f56a34e8-602e-4999-bef2-198ec7756a04
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2232675f-01df-40bd-8f99-1152ae02c59b
+f56a34e8-602e-4999-bef2-198ec7756a04
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20191220T072907Z
+20191220T114152Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
