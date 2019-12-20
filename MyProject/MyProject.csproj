@@ -160,6 +160,29 @@
       <IsTransformFile>true</IsTransformFile>
     </None>
     <Content Include="App_Config\Include\ship.config" />
+    <Content Include="App_Config\Include\Sitecore.Xdb.config">
+      <TransformOnBuild>true</TransformOnBuild>
+    </Content>
+    <None Include="App_Config\Include\Sitecore.Xdb.Debug.config">
+      <DependentUpon>Sitecore.Xdb.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\Sitecore.Xdb.local.config">
+      <DependentUpon>Sitecore.Xdb.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\Sitecore.Xdb.QA.config">
+      <DependentUpon>Sitecore.Xdb.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\Sitecore.Xdb.Release.config">
+      <DependentUpon>Sitecore.Xdb.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\Sitecore.Xdb.test.config">
+      <DependentUpon>Sitecore.Xdb.config</DependentUpon>
+      <IsTransformFile>true</IsTransformFile>
+    </None>
     <None Include="App_Config\Sitecore.Debug.config">
       <DependentUpon>Sitecore.config</DependentUpon>
       <IsTransformFile>true</IsTransformFile>
