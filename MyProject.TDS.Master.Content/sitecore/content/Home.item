@@ -150,8 +150,8 @@ content-length: 8
 Sitecore
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
+name: TextUpdated
+key: textupdated
 content-length: 812
 
 ><p style="line-height: 22px;">Fra en enkelt forbundet platform, der også integrerer med andre kundevendte platforme, til et enkelt billede af kunden i et stor data marketing repository, der helt eliminere meget af den kompleksitet, der tidligere har holdt marketingfolk tilbage, den nyeste version af Sitecore gør kundeoplevelsen meget nemt opnåeligt. Lær, hvordan den nyeste version af Sitecore giver marketingfolk det komplette overblik, integrerede værktøjer og automatiserings kapaciteter til at engagere kunder i hele den iterativ livscyklus - teknologi fundamentet der er absolut nødvendigt for at vinde kunder for livet.</p>
@@ -233,8 +233,8 @@ content-length: 29
 Sitecore Experience Plattform
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
+name: TextUpdated
+key: textupdated
 content-length: 914
 
 <p style="line-height: 22px;">Dank einer einzigen Plattform, die auch andere kundennahe Plattformen integriert, in Verbindung mit einer einheitlichen Ansicht des Kunden im Big Data Repository und einer fast vollständigen Beseitigung der Komplexität, die Vermarkter früher zurückgehalten hat, schafft es die neuste Version von Sitecore, das Kundenerlebnis tatsächlich erreichbar zu machen. Erfahren Sie mehr darüber, wie die neuste Version von Sitecore Vermarktern  vollständige Daten, integrierte Tools und Automatisierungsfähigkeiten zur Kundenbindung in einem durchgehend interaktiven Lebenszyklus liefert. Diese technische Basis ist für eine nachhaltige Kundengewinnung von größter Wichtigkeit.  </p>
@@ -305,19 +305,19 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: c996ff4c-18d3-45f9-93ac-8d3e720065aa
+revision: 65175cd9-05bb-4157-aae1-a2fa343a0d2f
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
 name: Title
 key: title
-content-length: 36
+content-length: 42
 
-Sitecore Experience Platform updated
+Sitecore Experience Platform updated Ankit
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
+name: TextUpdated
+key: textupdated
 content-length: 787
 
 <p style="line-height: 22px;">From a single connected platform that also integrates with other customer-facing platforms, to a single view of the customer in a big data marketing repository, to completely eliminating much of the complexity that has previously held marketers back, the latest version of Sitecore makes customer experience highly achievable. Learn how the latest version of Sitecore gives marketers the complete data, integrated tools, and automation capabilities to engage customers throughout an iterative lifecycle &ndash; the technology foundation absolutely necessary to win customers for life.</p>
@@ -384,14 +384,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c996ff4c-18d3-45f9-93ac-8d3e720065aa
+65175cd9-05bb-4157-aae1-a2fa343a0d2f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20191212T141755Z
+20191223T092412Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -413,8 +413,8 @@ content-length: 28
 サイトコア エクスペリエンス プラットフォームへようこそ
 ----field----
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
+name: TextUpdated
+key: textupdated
 content-length: 477
 
 <p style="line-height: 22px;">サイトコアの最新バージョンでは、複数の消費者向けプラットフォームと統合する単一接続プラットフォームや、マーケティング レポジトリのビッグ データから顧客情報を一目で確認可能なビューを提供し、さらにこれまでマーケターの悩みの種であった多くの複雑性を完全に解消することによって、カスタマー エクスペリエンスの実現が高いレベルで可能になりました。

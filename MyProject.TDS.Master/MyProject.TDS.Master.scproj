@@ -14,6 +14,13 @@
     <AssemblyName>MyProject.TDS.Master</AssemblyName>
     <Name>MyProject.TDS.Master</Name>
     <RootNamespace>MyProject.TDS.Master</RootNamespace>
+    <EnableCodeGeneration>True</EnableCodeGeneration>
+    <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
+    <CodeGenTargetProject>MyProject.Domain</CodeGenTargetProject>
+    <CodeGenFile>Models.Generated.cs</CodeGenFile>
+    <BaseNamespace>Models</BaseNamespace>
+    <BaseTransformFile>glassv3item.tt</BaseTransformFile>
+    <HeaderTransformFile>glassv3header.tt</HeaderTransformFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,6 +69,11 @@
   </ItemGroup>
   <ItemGroup>
     <SitecoreItem Include="sitecore\templates.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\MyProject.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\MyProject\employee.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\MyProject\employee\Data.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\MyProject\employee\Data\FirstName.item"><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\MyProject\employee\Data\Lastname.item"><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Sample.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Sample\_New template.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Sample\Sample Item.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
@@ -70,5 +82,7 @@
     <SitecoreItem Include="sitecore\templates\Sample\Sample Item\Data\TextUpdated.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Sample\Sample Item\Data\Title.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
   </ItemGroup>
+  <ItemGroup>
+    <CodeGenTemplate Include="Code Generation Templates\generalextensions.tt" /><CodeGenTemplate Include="Code Generation Templates\glassheader.tt" /><CodeGenTemplate Include="Code Generation Templates\glassitem.tt" /><CodeGenTemplate Include="Code Generation Templates\glassv3header.tt" /><CodeGenTemplate Include="Code Generation Templates\glassv3item.tt" /><CodeGenTemplate Include="Code Generation Templates\glassv5header.tt" /><CodeGenTemplate Include="Code Generation Templates\glassv5item.tt" /><CodeGenTemplate Include="Code Generation Templates\helpers.tt" /><CodeGenTemplate Include="Code Generation Templates\inflector.tt" /><CodeGenTemplate Include="Code Generation Templates\itempaths.tt" /><CodeGenTemplate Include="Code Generation Templates\mddocheader.tt" /><CodeGenTemplate Include="Code Generation Templates\mddocitem.tt" /><CodeGenTemplate Include="Code Generation Templates\stringextensions.tt" /><CodeGenTemplate Include="Code Generation Templates\velirheader.tt" /><CodeGenTemplate Include="Code Generation Templates\veliritem.tt" /></ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>

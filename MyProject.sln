@@ -15,6 +15,10 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MyProject.TDS.Master.Conten
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MyProject.TDS.Master.System", "MyProject.TDS.Master.System\MyProject.TDS.Master.System.scproj", "{90A020A3-9CF2-49D9-9CE0-DA12A4D8A7F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Domain", "MyProject.Domain\MyProject.Domain.csproj", "{441AB847-6759-4691-B76F-3D2F2C25FC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject.Sc", "MyProject.Sc\MyProject.Sc.csproj", "{F7E62E27-4AD5-47DA-BC19-5AA5DFA6FCD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,14 @@ Global
 		{90A020A3-9CF2-49D9-9CE0-DA12A4D8A7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A020A3-9CF2-49D9-9CE0-DA12A4D8A7F5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{90A020A3-9CF2-49D9-9CE0-DA12A4D8A7F5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{441AB847-6759-4691-B76F-3D2F2C25FC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441AB847-6759-4691-B76F-3D2F2C25FC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441AB847-6759-4691-B76F-3D2F2C25FC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441AB847-6759-4691-B76F-3D2F2C25FC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E62E27-4AD5-47DA-BC19-5AA5DFA6FCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E62E27-4AD5-47DA-BC19-5AA5DFA6FCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E62E27-4AD5-47DA-BC19-5AA5DFA6FCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E62E27-4AD5-47DA-BC19-5AA5DFA6FCD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
