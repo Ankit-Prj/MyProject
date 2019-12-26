@@ -32,7 +32,7 @@
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
     <DisableFileDeployment>False</DisableFileDeployment>
     <LightningDeployMode>False</LightningDeployMode>
-    <ConnectorTimeoutSeconds>60</ConnectorTimeoutSeconds>
+    <ConnectorTimeoutSeconds>90</ConnectorTimeoutSeconds>
     <PackageName>MyProject.TDS.Master</PackageName>
     <PackageAuthor />
     <PackagePublisher />
@@ -58,6 +58,11 @@
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>True</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <LightningDeployMode>False</LightningDeployMode>
+    <ConnectorTimeoutSeconds>120</ConnectorTimeoutSeconds>
+    <SitecoreAccessGuid>fdff52b8-c418-49bf-b969-47221d4748b8</SitecoreAccessGuid>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
@@ -70,6 +75,7 @@
   <ItemGroup>
     <SitecoreItem Include="sitecore\content.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\content\Home.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\content\New employee.item"><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\MyProject.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\MyProject\employee.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
